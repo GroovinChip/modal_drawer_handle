@@ -1,4 +1,4 @@
-##modal_drawer_handle
+## modal_drawer_handle
 
 modal_drawer_handle is A Flutter package that allows you to add a highly customizable drawer handle widget to your modalBottomSheets.
 
