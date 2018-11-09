@@ -3,6 +3,12 @@ description: A Flutter package that allows you to add a highly customizable draw
 version: 0.1.0
 author: GroovinChip <groovinchip@gmail.com
 homepage: https://github.com/GroovinChip/modal_drawer_handle
+#---
+# Release commands:
+# 1) flutter packages pub publish --dry-run
+# 2) flutter packages pub publish
+#---
+
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
