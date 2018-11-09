@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 /// This widget represents a customizable 'handle' that you can add to your
 /// modalBottomSheets
 class ModalDrawerHandle extends StatelessWidget {
-  /// Represents the MainAxisAlignment of the Row that contains the handle/
+  /// Represents the MainAxisAlignment of the Row that contains the handle.
   /// The default value is MainAxisAlignment.center
   final MainAxisAlignment handleRowAlignment;
 
@@ -15,10 +15,10 @@ class ModalDrawerHandle extends StatelessWidget {
   final double handleWidth;
 
   /// Represents the color of the handle.
-  /// The default value is Colors.grey[300]
+  /// The default value is #EEEEEE
   final Color handleColor;
 
-  /// Represents the BorderRadius (rounding the corners of the handle.
+  /// Represents the BorderRadius (rounding the corners of the handle).
   /// The default value is const BorderRadius.all(Radius.circular(10.0)).
   /// Note that when using a custom BorderRadius, you need to pass in
   /// a Radius, not a double.
