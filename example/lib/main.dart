@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         leading: Icon(GroovinMaterialIcons.github_circle),
                         title: Text("View source code"),
                         onTap: () {
-                          launch("https://github.com/GroovinChip/");
+                          launch("https://github.com/GroovinChip/modal_drawer_handle");
                         },
                       ),
                     ),

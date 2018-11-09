@@ -1,8 +1,8 @@
 name: modal_drawer_handle
 description: A Flutter package that allows you to add a highly customizable drawer handle to your modalBottomSheets.
 version: 0.1.0
-author:
-homepage:
+author: GroovinChip <groovinchip@gmail.com
+homepage: https://github.com/GroovinChip/modal_drawer_handle
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
