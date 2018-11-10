@@ -1,4 +1,5 @@
 library modal_drawer_handle;
+
 import 'package:flutter/material.dart';
 
 /// This widget represents a customizable 'handle' that you can add to your
@@ -26,14 +27,15 @@ class ModalDrawerHandle extends StatelessWidget {
 
   /// ModalDrawerHandle constructor.
   /// The widget is initialized with the default values.
-  ModalDrawerHandle({
-    this.handleRowAlignment = MainAxisAlignment.center,
-    this.handleHeight = 5.0,
-    this.handleWidth = 25.0,
-    Color handleColor,
-    this.handleBorderRadius = const BorderRadius.all(Radius.circular(10.0))
-  }):
-     this.handleColor = handleColor ?? Colors.grey[300];
+  ModalDrawerHandle(
+      {this.handleRowAlignment = MainAxisAlignment.center,
+      this.handleHeight = 5.0,
+      this.handleWidth = 25.0,
+      Color handleColor,
+      this.handleBorderRadius = const BorderRadius.all(
+        Radius.circular(10.0),
+      )})
+      : this.handleColor = handleColor ?? Colors.grey[300];
 
   // ModalDrawerHandle Widget builder
   @override
@@ -46,12 +48,10 @@ class ModalDrawerHandle extends StatelessWidget {
           width: this.handleWidth,
           decoration: BoxDecoration(
             color: this.handleColor,
-            borderRadius: this.handleBorderRadius
+            borderRadius: this.handleBorderRadius,
           ),
         ),
       ],
     );
   }
 }
-
-
