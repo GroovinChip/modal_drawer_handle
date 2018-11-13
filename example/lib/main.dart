@@ -77,6 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton.extended(
         icon: Icon(Icons.keyboard_arrow_up),
         label: Text("Show drawer"),
+        backgroundColor: randomHandleColor,
         onPressed: () {
           showRoundedModalBottomSheet(
             context: context,
