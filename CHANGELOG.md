@@ -1,4 +1,8 @@
-## [1.0.3] - Released 11/00/2018
+## [1.0.4] - Released 11/17/2018
+
+* Updated README
+
+## [1.0.3] - Released 11/10/2018
 
 * Updated README with image and video links
 
